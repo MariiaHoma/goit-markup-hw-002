@@ -67,8 +67,7 @@ body {
 }
 
 header {
-  padding-top: 24px;
-  padding-bottom: 25px;
+  border: 1px solid #ECECEC;
 }
 
 .header-nav {
@@ -129,10 +128,14 @@ gap: 50px;
 .hero-section {
     background: var(--secondary-background-color);
     text-align: center;
-    padding-top: 200px;
-    padding-bottom: 200px;
     
 }
+
+.section {
+   padding-top: 94px;
+   padding-bottom: 94px;
+}
+
 
 .hero-title {
   font-weight: 900; 
@@ -173,7 +176,7 @@ gap: 50px;
 }
 /*----MAIN BEBEFITS-----*/
 .benefit-section {
-    padding-top: 94px;
+    padding-bottom: 0;
 }
 
 .visually-hidden {
@@ -214,7 +217,6 @@ gap: 50px;
 /*-----MAIN WORK----*/
 .work-section {
     background: var(--primary-white-color);
-    padding: 94px 0;
 }
 
 .section-title { 
@@ -233,8 +235,6 @@ gap: 50px;
 /*-----MAIN TEAM----*/
 .team-section {
     background: var(--buttons-background);
-    padding-top: 94px;
-    padding-bottom: 94px;
 }
 
 .team-list {
@@ -243,8 +243,9 @@ gap: 50px;
 }
 
 .team-item {
-  margin-bottom: 94px;
   background-color: var(--primary-white-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-photo {
@@ -261,7 +262,6 @@ gap: 50px;
   line-height: 1.18; 
   text-align: center; 
   margin-bottom: 10px;
-
 }
 
 .team-position {
@@ -284,7 +284,6 @@ gap: 50px;
   line-height: 1.2; 
   color: var(--primary-white-color);
   display: inline-block;
-  margin-right: 93px;
 }
 
 .address-section {
@@ -301,18 +300,12 @@ gap: 50px;
   font-style: normal;
   line-height: 1.71; 
   color: var(--primary-white-color);
-  margin-bottom: 5px;
-  display: inline-block;
-
 }
 
 .footer-contact-link {
   font-style: normal;
   line-height: 1.71; 
   color: rgba(255, 255, 255, 0.6);
-  margin-bottom: 5px;
-  display: inline-block;
-
 }
 
 .footer-contact-link:hover,
@@ -324,15 +317,14 @@ gap: 50px;
 
 /*----MAIN BUTTTONS----*/
 .buttons-section {
-  background-color: var(--primary-white-color);
-  padding-top: 90px;
-  padding-bottom: 98px;
 }
 
 .buttons-list {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 8px;
+  margin-bottom: 50px;
 }
 
 .btn {
@@ -347,8 +339,6 @@ gap: 50px;
   border-radius: 4px;
   display: block; 
   padding: 6px 22px;
-  margin-bottom: 50px;
-  margin-right: 8px;
   border-radius: 7px; 
   border: none;
 }
@@ -367,8 +357,9 @@ gap: 50px;
 .projects-item {
   width: 370px;
   margin-right: var(--margin-right);
-  margin-bottom: 38px;
+  margin-bottom: 30px;
   background-color: var(--primary-white-color);
+  border: 1px solid #EEEEEE;
 }
 
 .projects-item:nth-child(3n) {
@@ -380,7 +371,10 @@ gap: 50px;
 }
 
 .projects-photo {
-  margin-bottom: 20px;
+}
+
+.projects-container {
+  padding: 20px 24px;
 }
 
 .projects-title {
@@ -388,8 +382,6 @@ gap: 50px;
   line-height: 2; 
   letter-spacing: 0.06em; 
   color: var(--title-text-color);
-  margin-bottom: 4px;
-  
 }
 
 .projects-text { 
