@@ -133,6 +133,7 @@ gap: 50px;
 .hero-section {
     background: var(--secondary-background-color);
     text-align: center;
+    padding: 200px 0;
 }
 
 .hero-title {
@@ -287,9 +288,9 @@ gap: 50px;
   margin-top: 20px;
 }
 
-.adress-list {
+.address-list {
   display: flex;
-  direction: column;
+  flex-direction: column;
   gap: 9px;
 }
 
@@ -378,11 +379,12 @@ gap: 50px;
   font-size: 18px; 
   line-height: 2; 
   letter-spacing: 0.06em; 
-  color: var(--title-text-color);f
+  color: var(--title-text-color);
 }
 
 .projects-text { 
   font-size: 16px; 
   line-height: 1.87; 
   color: var(--primary-text-color);   
+  margin-top: 4px;
 }
